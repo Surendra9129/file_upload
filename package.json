@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "nodemon": "nodemon src/server.js"
+    "nodemon": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Surendra9129/file_upload#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.0.14"
+    "mongoose": "^6.0.14",
+    "multer": "^1.4.3"
   }
 }
